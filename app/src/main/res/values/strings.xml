@@ -9,4 +9,5 @@
     <string name="label_cor">Cor</string>
     <string name="label_confirmar">Confirmar</string>
     <string name="label_show_sccuess">Cartão Cadastrado com Sucesso!</string>
+    <string name="label_share">Compartilhar</string>
 </resources>

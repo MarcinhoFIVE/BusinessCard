@@ -8,6 +8,7 @@ import br.mdan.businesscard.App
 import br.mdan.businesscard.data.MainViewModel
 import br.mdan.businesscard.data.MainViewModelFactory
 import br.mdan.businesscard.databinding.ActivityMainBinding
+import br.mdan.businesscard.util.Image
 
 class MainActivity : AppCompatActivity() {
 
@@ -31,7 +32,9 @@ class MainActivity : AppCompatActivity() {
         binding.btnAdd.setOnClickListener {
             val Intent = Intent(this@MainActivity, AddBusinesCardActivity::class.java)
             startActivity(Intent)
-
+        }
+        adapter.listenerShare = { card ->
+            Image.share(this@MainActivity, card)
         }
     }
 
