@@ -5,6 +5,8 @@ import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import br.mdan.businesscard.App
+import br.mdan.businesscard.data.MainViewModel
+import br.mdan.businesscard.data.MainViewModelFactory
 import br.mdan.businesscard.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
